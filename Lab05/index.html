@@ -1,0 +1,67 @@
+<!-- HTML Lab Assignment 5 -->
+<!-- Deadline: 2022-11-09 23:59 -->
+
+<!-- [10%] 1. A Table (3x3 cells) with two different background colors for <th> and <td> -->
+<!-- [20%] 2. Two buttons to control the width of the table (200px, 500 px) -->
+<!-- [20%] 3. Three buttons to control the border with and cell spacing of the table -->
+<!-- [20%] 4. Four buttons to control the background color of the table (will not affect the color of table headings)-->
+<!-- [20%] 5. A reset button to reset the style to the original.-->
+<!-- [10%] 6. Separate the JavaScript code from the html file and upload both files to github. (javascript in an external file) -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Write your Html code here -->
+    <div>
+        <table id="gradetable">
+            <tr class="gradetableRow">
+                <th class="gradetableCol">Math</th>
+                <th class="gradetableCol">English</th>
+                <th class="gradetableCol">Programming</th>
+            </tr>
+            <tr class="gradetableRow">
+                <td class="gradetableCol">90</td>
+                <td class="gradetableCol">60</td>
+                <td class="gradetableCol">80</td>
+            </tr>
+            <tr class="gradetableRow">
+                <td class="gradetableCol">80</td>
+                <td class="gradetableCol">86</td>
+                <td class="gradetableCol">98</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div id="tableButton">
+        <label>Change The Table Width</label>
+        <br>
+        <input type="button" onclick="ChangeWidth(200)" value="200px">
+        <input type="button" onclick="ChangeWidth(500)" value="500px">
+        
+        <br><br>
+        <label>Change The Border and The Spacing Width</label>
+        <br>
+        <input type="button" onclick="ChangeBorderAndSpace(1)" value="1px">
+        <input type="button" onclick="ChangeBorderAndSpace(10)" value="10px">
+        <input type="button" onclick="ChangeBorderAndSpace(20)" value="20px">
+        
+        <br><br>
+        <label>Change The Table Color</label>
+        <br>
+        <input class="colorButton" id="greenButton" type="button" onclick="ChangeColor(154, 230, 209)">
+        <input class="colorButton" id="blueButton" type="button" onclick="ChangeColor(145, 194, 212)">
+        <input class="colorButton" id="purpleButton" type="button" onclick="ChangeColor(172, 159, 215)">
+        <input class="colorButton" id="orangeButton" type="button" onclick="ChangeColor(222, 198, 154)">
+        
+        <br><br>
+        <input type="button" onclick="InitTable()" value="Reset">
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
