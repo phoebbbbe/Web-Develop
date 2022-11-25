@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <canvas id="myCanvas" width="500" height="300" style="border:1px solid #000000;">Your browser does not support the HTML canvas tag.</canvas>
+    </body>
+
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        //#region Circle
+        ctx.beginPath();
+        ctx.strokeStyle = "#fbaced";
+        ctx.lineWidth = 5;
+        ctx.fillStyle = "#fbcdac";
+        ctx.arc(350, 130, 15, 3.14, 1.57, false);
+        ctx.stroke();
+        //#endregion
+
+        //#region Rect
+        ctx.fillStyle = "#FF0000";
+        ctx.fillRect (150,100,150,75);
+
+        ctx.fillStyle = "rgba(0, 0, 200, 0.5)";
+        ctx.fillRect(200, 130, 150, 75);
+        //#endregion
+
+        //#region Line
+        ctx.strokeStyle = "#11cdac";
+        ctx.lineWidth = 5;
+        ctx.beginPath();
+        ctx.moveTo(150,180);
+        ctx.lineTo(195,180);
+        ctx.lineTo(195,210);
+        ctx.lineTo(360, 210);
+        ctx.stroke();
+        //#endregion
+
+        //#region Text
+        ctx.beginPath();
+        ctx.font = "25px Arial";
+        ctx.fillStyle = "#FFFFFF";
+        ctx.fillText ("Overlap", 205, 160);
+        ctx.stroke();
+        //#endregion
+
+    </script>
+</html>
