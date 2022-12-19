@@ -1,13 +1,3 @@
-import React from 'react';
-
-function Title() {
-    return(
-        <nav class="bg-dark navbar-dark navbar">
-            <div className="row col-12 d-flex justify-content-center text-white">
-                <h3>Welcom to NTUT Web Programming</h3>
-            </div>
-        </nav>
-    )
-}
-
-export default Title;
+version https://git-lfs.github.com/spec/v1
+oid sha256:fbed0c55e8ad2219fe4707147ce0a2cdaf312d4b678ec5eb626fe987bd74f535
+size 310

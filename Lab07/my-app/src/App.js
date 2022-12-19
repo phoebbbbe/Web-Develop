@@ -1,35 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
-import Title from './components/title';
-import Mysidebar from './components/sidebar';
-import Main from './components/main';
-
-function App() {
-  return (
-    <div className="App">
-      <Title/>
-      <div style={{ display: 'flex', height: '100%' }}>
-        <Mysidebar/>
-        <Main/>
-      </div>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello class!
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-    </div>
-    
-  );
-}
-
-export default App;
+version https://git-lfs.github.com/spec/v1
+oid sha256:5de3f4d805e2f01d298ff26ce3a8bbbecf0f56a38485be76cd88eb9cf03b171b
+size 808
