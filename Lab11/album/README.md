@@ -22,7 +22,3 @@ Steps:
 * Download [Album.js](https://github.com/mui/material-ui/blob/v5.11.0/docs/data/material/getting-started/templates/album/Album.js)
 * Put `Album.js` into your project and start working on adding firebase-related code to read posts from your DB and show the posts in the form of an album card.
 * Your page should look like: https://ntut-web-by-alex-001.web.app
-
-### Final Term Project Discussion
-
-Your term project presentation is just around the corner. After finish the coding lab, gather your team and start white-boarding. Good luck!
