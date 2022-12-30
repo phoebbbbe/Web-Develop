@@ -1,4 +1,4 @@
-## Lab
+## Lab11
 
 Today's lab will be composed of two sections:
 1. Create a Beautiful MUI App
